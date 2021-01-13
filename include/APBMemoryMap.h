@@ -1,0 +1,47 @@
+#ifndef __BLUEPILL_APB_MEMORY_MAP__
+#define __BLUEPILL_APB_MEMORY_MAP__
+
+#define TIM2	0x40000000
+#define TIM3	0x40000400
+#define TIM4	0x40000800
+
+#define RTC		0x40002800
+#define WWDG	0x40002C00
+#define IWDG	0x40003000
+#define SPI2	0x40003800
+
+#define USART2  0x40004400
+#define USART3  0x40004800
+#define I2C1    0x40005400
+#define I2C2    0x40005800
+
+#define USB_ogn	0x40005C00
+
+#define USB_CAN_SRAM_SHARED 0x40006000
+
+#define bxCAN	0x40006800
+#define BKP		0x40007000
+#define PWR     0x40007400
+#define AFIO    0x40010000
+#define EXTI    0x40010400
+#define PORTA   0x40010800
+#define PORTB   0x40010C00
+#define PORTC   0x40011000
+#define PORTD   0x40011400
+#define PORTE   0x40011800
+					 
+#define ADC1	0x40012400
+#define ADC2	0x40012800
+
+#define TIM1	0x40012C00
+#define SPI1    0x40013000
+#define USART1  0x40013800
+#define DMA     0x40020000
+#define RCC     0x40021000
+
+#define FLASH_INTERFACE	0x40022000
+
+#define CRC	0x40023000
+
+
+#endif

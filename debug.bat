@@ -1,0 +1,1 @@
+arm-none-eabi-gdb main.elf -ex "target extended-remote com5" -ex " mon swdp_scan"
